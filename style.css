@@ -81,7 +81,6 @@ h1{
 }
 
 #todo-list li{
-    text-decoration: none;
     list-style-type: none;
     font-size: 1.4rem;
     text-transform: capitalize;
