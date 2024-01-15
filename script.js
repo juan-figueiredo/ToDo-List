@@ -13,7 +13,7 @@ function newTask(){
     input.style.border = ''
 
     if(!input.value){
-        input.style.border = '1px solid red'
+        input.style.border = '2px solid red'
         alert("Digite algo para inserir em sua lista")
     }else if(validateIfExistNewTask()){
         alert('Já existe uma tarefa com este nome')

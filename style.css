@@ -13,7 +13,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: var(--color-dark);
+    /* background-color: var(--color-dark); */
+    background-image: url(/toDoList/assets/bg3.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -23,7 +27,7 @@ body{
 
 h1{
     position: relative;
-    top:1rem;
+    top:3rem;
 }
 
 .content{
@@ -31,10 +35,11 @@ h1{
     flex-direction: column;
     gap: 3rem;
     position: relative;
-    top: 5srem;
+    top: 4rem;
     border: 1px solid white;
     border-radius: 1rem;
     padding: 20px;
+    backdrop-filter: blur(10px);
 }
 
 .content-add-item{
